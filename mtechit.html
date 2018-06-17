@@ -88,13 +88,15 @@
 					</div>
 					<!-- single card -->
 					<div class="col-md-6 col-sm-6">
-						<div class="lab-card">
-							<div class="icon">
-								<i class="flaticon-011-compass"></i>
-							</div>
-							<h2>Projects</h2>
-                            <p>Computer Science<br>Data Science<br>Software Engineering<br>Networking and Communication</p>
-						</div>
+                        <a href="#projects">
+                            <div class="lab-card">
+                                <div class="icon">
+                                    <i class="flaticon-011-compass"></i>
+                                </div>
+                                <h2>Projects</h2>
+                                <p>Computer Science<br>Data Science<br>Software Engineering<br>Networking and Communication</p>
+                            </div>
+                        </a>
 					</div>
 				</div>
 			</div>
@@ -292,59 +294,60 @@
 		<div class="test-overlay"></div>
 		<div class="container">
 			<div class="row">
-					<div class="section-title left">
-						<h2>Projects</h2>
-					</div>
-					<div class="owl-carousel" id="testimonial-slide">
-						<!-- single testimonial -->
-						<div class="testimonial">
-							<span>Development of OS </span>
-							<p>The project involves the study of Assembly language for 8086 Architecture and aims to make the Operating System from scratch. This version of the project deals with the creation of the Boot loader which is built purely in assembly language. Due to the complex operations involved, the project was split into 4 stages which include developing the simple bootloader, analysis , addition of protection using concepts in involved in "Ring" which represents the level of protection and control the program has over the system. This is followed by getting size of root directory, Getting the start address of root directory and loading FAT.</p>
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title left">
+                        <h2 id="projects">Projects</h2>
+                    </div>
+                    <div class="owl-carousel" id="testimonial-slide">
+                        <!-- single testimonial -->
+                        <div class="testimonial">
+                            <span>Development of OS </span>
+                            <p>The project involves the study of Assembly language for 8086 Architecture and aims to make the Operating System from scratch. This version of the project deals with the creation of the Boot loader which is built purely in assembly language. Due to the complex operations involved, the project was split into 4 stages which include developing the simple bootloader, analysis , addition of protection using concepts in involved in "Ring" which represents the level of protection and control the program has over the system. This is followed by getting size of root directory, Getting the start address of root directory and loading FAT.</p>
                             <p>Tools used:   Bochs Simulator, Virtual Floppy Drive, Naam Assembler</p>
-						</div>
-						<div class="testimonial">
-							<span>Fleet Management System</span>
-							<p>Scheduling the routes by minimizing the fleet in a given network
+                        </div>
+                        <div class="testimonial">
+                            <span>Fleet Management System</span>
+                            <p>Scheduling the routes by minimizing the fleet in a given network
                             </p>
                             <p>Tools used:  eclipse IDE, struts2, j2ee, mysql workbench, apache tomcat server, javascript, jquery, ajax, mysql, html, bootstrap, css
                             </p>
-						</div>
-						<div class="testimonial">
-							<span>VR Based Smart Board
+                        </div>
+                        <div class="testimonial">
+                            <span>VR Based Smart Board
                             </span>
-							<p>In this application user can write on webscreen using his fingers without any additional hardware requirement other than a webcam.
+                            <p>In this application user can write on webscreen using his fingers without any additional hardware requirement other than a webcam.
                             </p>
                             <p>Tools used:  Python & Opencv
                             </p>
-						</div>
-						<div class="testimonial">
-							<span>Number Plate detection and recognition</span>
-							<p>Detection of number plates on the Indian car vehicles is a difficult task due to low resolution CCTV cameras used
+                        </div>
+                        <div class="testimonial">
+                            <span>Number Plate detection and recognition</span>
+                            <p>Detection of number plates on the Indian car vehicles is a difficult task due to low resolution CCTV cameras used
                             and position of cameras fixed at different angles, Used YOLO (version2) to detect number plates in this scenario
                             and used 1633 images to re-train YOLO for this task. Currently working on
                             recognition part using MD-LSTM.
                             </p>
-						</div>
-						<div class="testimonial">
-							<span>Behavioral Cloning</span>
+                        </div>
+                        <div class="testimonial">
+                            <span>Behavioral Cloning</span>
                             <p>Transfer Learning:<br>
                             The objective is to train a car to drive along the track using data collected from human rides in a simulator. The
                             simulator is provided by udacity as a part of its Self-Driving Car Nanodegree. At a higher level we used the data
                             collected from the simulator which consists of images and corresponding steering angles, Used data augmentation
                             techniques, Used NVIDIA self-driving car deep learning model (link) for training on the collected dataset.
                             </p>
-						</div>
-						<div class="testimonial">
-							<span>Irony (Sarcasm Detection)</span>
-							<p>Irony detection in English tweets is one of the subtask of SemEval-2018. The approach we have taken is to
+                        </div>
+                        <div class="testimonial">
+                            <span>Irony (Sarcasm Detection)</span>
+                            <p>Irony detection in English tweets is one of the subtask of SemEval-2018. The approach we have taken is to
                             incorporate common sense knowledge in the tweet using Concept Net, used Bilinear model described in Common
                             Sense Knowledge Base Completion to get score for relationship between words (includes phrases) in tweets,
                             change in sentiment across the tweet is computed using Glove word2vec model.
                             </p>
-						</div>
-						<div class="testimonial">
-							<span>Universal Caching for SDN enabled Network</span>
-							<p>Idea: Project motif on building a DLCM(Deep learning cache manager) which
+                        </div>
+                        <div class="testimonial">
+                            <span>Universal Caching for SDN enabled Network</span>
+                            <p>Idea: Project motif on building a DLCM(Deep learning cache manager) which
                             succor in scrutinize the universal caching policy for SDN enabled network.
                             Deep learning based algorithm is used to learn the popularity of content. Based
                             on the knowledge gained the caching decision is made.
@@ -352,28 +355,29 @@
                             <p>Tools: Mininet, FloodLight controller.
                             Language: Python with keras and tensorflow support.
                             </p>
-						</div>
-						<div class="testimonial">
-							<span>Cooperating Objects for Privacy Aware Smart buildings</span>
-							<p>Idea: The aim of the COPAS project is to design a strategy for smart, energy
+                        </div>
+                        <div class="testimonial">
+                            <span>Cooperating Objects for Privacy Aware Smart buildings</span>
+                            <p>Idea: The aim of the COPAS project is to design a strategy for smart, energy
                             saving, privacy aware semi-public buildings. The project involves building an
                             extensive sensor network, collecting and analyzing data collected from this
                             network. It also focuses on self-organizing networks for improving the
                             adaptability of system.
                             </p>
                             <p>Languages: C, Python</p>
-						</div>
-						<div class="testimonial">
-							<span>Universal API</span>
-							<p>Travelport Platform Services Project Universal API (uAPI) is the set of Web Services and APIs which are being developed on top of the Kestrel framework acquired by Travelport. The Developed product will trigger service specific (Air /Hotel/Vehicle/Rail/Cruise) requests to individual GDS like Galileo (1G), Apollo (1V), Worldspan (1P), JAL (1J) and LCC adapter (Like ACH) and provide support to aggregate multiple distribution systems and low cost carriers. After getting the request from User it goes to the appropriate GDS and fires multiple requests to the GDS as per the Service and stores the data in its Local Database and returns the cumulative data to the User.</p>
+                        </div>
+                        <div class="testimonial">
+                            <span>Universal API</span>
+                            <p>Travelport Platform Services Project Universal API (uAPI) is the set of Web Services and APIs which are being developed on top of the Kestrel framework acquired by Travelport. The Developed product will trigger service specific (Air /Hotel/Vehicle/Rail/Cruise) requests to individual GDS like Galileo (1G), Apollo (1V), Worldspan (1P), JAL (1J) and LCC adapter (Like ACH) and provide support to aggregate multiple distribution systems and low cost carriers. After getting the request from User it goes to the appropriate GDS and fires multiple requests to the GDS as per the Service and stores the data in its Local Database and returns the cumulative data to the User.</p>
                             <p>Tools used:   Core JAVA, Core Spring, Hibernate, Web Service (SOAP), XML, XSD, JibX</p>
-						</div>
-						<div class="testimonial">
-							<span>Prototype of eBay</span>
-							<p>Prototype of eBay was done by the usage of REST services to fulfill the basic requirements of a shopping site. The website contains plethora of features assisting workflows for multitudes of users categorized as admin, seller, buyer and guest. The services includes those offered by standard ecommerce sites such as selling / buying / status / tracking / rating / review / deals of goods of various types including electronics, books and other stationary goods.</p>
+                        </div>
+                        <div class="testimonial">
+                            <span>Prototype of eBay</span>
+                            <p>Prototype of eBay was done by the usage of REST services to fulfill the basic requirements of a shopping site. The website contains plethora of features assisting workflows for multitudes of users categorized as admin, seller, buyer and guest. The services includes those offered by standard ecommerce sites such as selling / buying / status / tracking / rating / review / deals of goods of various types including electronics, books and other stationary goods.</p>
                             <p>Tools used:  Eclipse, MySql, BootStrap, Java, Javascript</p>
-						</div>
-					</div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</div>
 	</div>
